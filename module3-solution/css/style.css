@@ -1,0 +1,103 @@
+/*header css*/
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+#navbar
+{
+    background-color: orangered;
+    border: 1px solid blue;
+}
+.navbar-default .navbar-brand
+{
+    font-size: 24px;
+    color: black !important;
+    font-weight: bold;
+}
+.page-title
+{
+    font-weight: bold;
+    text-align: center;
+}
+h5.card-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card
+{
+    background-color: skyblue;
+}
+.card-body {
+    padding: 10px;
+}
+.marginTop20
+{
+    margin-top: 20px;
+}
+hr.visible-xs
+{
+  color: black;
+  border-top: 2px solid black !important;
+}
+.navbar-default .navbar-toggle {
+    border-color:black;
+}
+.displayNone
+{
+    display: none;
+}
+.menu
+{
+    color: aliceblue !important;
+    text-align: center;
+}
+/*desktop screen */
+@media(min-width:1200px)
+{
+    .navbar-brand {
+        float: left;
+        height: 50px;
+        padding: 15px 15px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+/*medium screen devices*/
+@media(min-width:768) and (max-width:990px)
+{
+    .navbar-brand {
+        float: left;
+        height: 50px;
+        padding: 15px 15px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+@media(min-width:991) and (max-width:1199px)
+{
+    .navbar-brand {
+        float: left;
+        height: 50px;
+        padding: 15px 15px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+/*small screen devices*/
+@media(max-width:767px)
+{
+    .navbar-brand {
+        float: left;
+        height: 50px;
+        padding: 15px 30px !important;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
